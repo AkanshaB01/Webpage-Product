@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" typle="text/css" href="style.css"/>
+</head>
+</head>
+<body>
+    <section id="sec">
+        <div class="left-column">
+            <img id="productImg" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/6661d579-12ae-456b-b8f2-e78e5256a99c1558948436173-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-1.jpg">
+
+        </div>
+        <div class="right-column">
+            <div class="product-description">
+                <h1 class="name">White 2nd Gen AirPods with Charging Case</h1>
+                <h4 id="brand">Apple</h4>
+                <h3>
+                    Price:Rs <span id="price">14999</span>
+                </h3>
+            </div>
+        <div class="description">
+            <h3>Description</h3>
+            <p id="description">AirPods with Charging Case: More than 24 hours listening time,3 up to 18 hours talk time8. AirPods (single charge): Up to 5 hours listening time,1 up to 3 hours talk time2. 15 minutes in the case equals up to 3 hours listening time4 or up to 2 hours talk time. Warranty: 1 year. Warranty provided by Brand/Manufacturer</p>
+       
+        </div>
+       
+        <div class="product-preview">
+            <h3>Product preview</h3>
+            <div class="PreviewImg">
+                <img class="img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/6661d579-12ae-456b-b8f2-e78e5256a99c1558948436173-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-1.jpg" alt="" >
+                <img class="img"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/9b14396e-0ee1-46b4-833c-4a2c35b5ce661558948436160-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-2.jpg" alt="">
+                <img class="img"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/27569983-fada-4874-9306-14c945c234781558948436148-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-3.jpg" alt="">
+                <img class="img" src="" alt=""  >
+                <img class="img" src="" alt="" >
+                <img class="img" src="" alt="" >
+            </div>
+        </div>
+        <div class="btn">
+            <button id="add">Add to cart</button>
+        </div>
+  
+           
+        </div>
+    </section>
+    <script>
+        
+        var MainImg = document.getElementById("productImg");
+        var SmallImg = document.getElementsByClassName("img");
+        SmallImg[0].onclick = function(){
+            MainImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function(){
+            MainImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function(){
+            MainImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function(){
+            MainImg.src = SmallImg[3].src;
+        }
+        SmallImg[4].onclick = function(){
+            MainImg.src = SmallImg[4].src;
+        }
+
+    </script>
+    
+</body>
+</html>

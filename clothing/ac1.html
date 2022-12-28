@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" typle="text/css" href="style.css"/>
+</head>
+</head>
+<body>
+    <section id="sec">
+        <div class="left-column">
+            <img id="productImg" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/624dac60-4c42-4902-bba1-30a51cc7f43c1558948536543-Apple-Unisex-Smart-Watches-1441558948536225-1.jpg">
+
+        </div>
+        <div class="right-column">
+            <div class="product-description">
+                <h1 class="name">Unisex Silver-Toned Series 3 Smart Watch</h1>
+                <h4 id="brand">Apple</h4>
+                <h3>
+                    Price:Rs <span id="price">31999</span>
+                </h3>
+            </div>
+        <div class="description">
+            <h3>Description</h3>
+            <p id="description">Low and high heart rate notifications. Emergency SOS. New Breathe watch faces. Automatic workout detection. New yoga and hiking workouts. Advanced features for runners like cadence and pace alerts. New head-to-head competitions. Activity sharing with friends. Personalized coaching. Monthly challenges and achievement awards. Walkie-Talkie, make phone calls, and send messages. Listen to Apple Music and Apple Podcasts. Use Siri in all-new ways. Silver aluminum case. Built-in GPS, GLONASS, Galileo, and QZSS. S3 with dual-core processor. W2 Apple wireless chip. Barometric altimeter Capacity 8GB. Optical heart sensor. 1 Year Manufacture Warranty</p>
+       
+        </div>
+       
+        <div class="product-preview">
+            <h3>Product preview</h3>
+            <div class="PreviewImg">
+                <img class="img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/624dac60-4c42-4902-bba1-30a51cc7f43c1558948536543-Apple-Unisex-Smart-Watches-1441558948536225-1.jpg" alt="" >
+                <img class="img"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/dd1e37da-0de2-417f-abd2-6df8996040eb1558948536526-Apple-Unisex-Smart-Watches-1441558948536225-2.jpg" alt="">
+                <img class="img"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/9dfea59a-4d94-43bd-a140-77b58e42e8971558948536512-Apple-Unisex-Smart-Watches-1441558948536225-3.jpg" alt="">
+                <img class="img" src="" alt=""  >
+                <img class="img" src="" alt="" >
+                <img class="img" src="" alt="" >
+            </div>
+        </div>
+        <div class="btn">
+            <button id="add">Add to cart</button>
+        </div>
+  
+           
+        </div>
+    </section>
+    <script>
+        
+        var MainImg = document.getElementById("productImg");
+        var SmallImg = document.getElementsByClassName("img");
+        SmallImg[0].onclick = function(){
+            MainImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function(){
+            MainImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function(){
+            MainImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function(){
+            MainImg.src = SmallImg[3].src;
+        }
+        SmallImg[4].onclick = function(){
+            MainImg.src = SmallImg[4].src;
+        }
+
+    </script>
+    
+</body>
+</html>

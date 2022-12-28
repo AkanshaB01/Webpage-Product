@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" typle="text/css" href="style.css"/>
+</head>
+</head>
+<body>
+    <section id="sec">
+        <div class="left-column">
+            <img id="productImg" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg">
+
+        </div>
+        <div class="right-column">
+            <div class="product-description">
+                <h1 class="name">Men Black Action Parkview Lifestyle Shoes</h1>
+                <h4 id="brand">Hush Puppies</h4>
+                <h3>
+                    Price:Rs <span id="price">6999 </span>
+                </h3>
+            </div>
+        <div class="description">
+            <h3>Description</h3>
+            <p id="description">Flaunt an effortless look with this ultimate pair of black coloured formal shoes from the house of Hush Puppies. Let the sun go down for uncomfortable shoes, as you opt for this pair of formal shoes that is crafted using comfortable TPR (thermoplastic rubber) sole. Pair these formal shoes with a shirt and trousers to look absolutely handsome</p>
+       
+        </div>
+       
+        <div class="product-preview">
+            <h3>Product preview</h3>
+            <div class="PreviewImg">
+                <img class="img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg" alt="">
+                <img class="img"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/329c61f4-640b-44b6-98a6-8fa1fe0540191537343756244-2.jpg" alt="">
+                <img class="img"  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/6ba2ccd4-7f67-486d-abca-ad5a76a9ec701537343756256-3.jpg" alt="">
+                <img class="img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/bfb2efca-a6ca-4290-a680-08977b14d8341537343756267-4.jpg" alt=""  >
+                <img class="img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/581164ce-30e8-42da-9454-7e49682ad6371537343756277-5.jpg" alt="" >
+                <img class="img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/54d44ce2-e62b-4157-8b78-a96a6d187be91537343756288-6.jpg" alt="" >
+            </div>
+        </div>
+        <div class="btn">
+            <button id="add">Add to cart</button>
+        </div>
+  
+           
+        </div>
+    </section>
+    <script>
+        
+        var MainImg = document.getElementById("productImg");
+        var SmallImg = document.getElementsByClassName("img");
+        SmallImg[0].onclick = function(){
+            MainImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function(){
+            MainImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function(){
+            MainImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function(){
+            MainImg.src = SmallImg[3].src;
+        }
+        SmallImg[4].onclick = function(){
+            MainImg.src = SmallImg[4].src;
+        }
+
+    </script>
+    
+</body>
+</html>
